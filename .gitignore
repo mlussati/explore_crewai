@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# CrewAI / LangChain / LLM configs
+*.env
+*.secrets
+*.key
+*.pem
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Logs
+*.log
+logs/
+
+# Local data, results, artifacts
+data/
+outputs/
+results/
+artifacts/
+storage/
+
+# VS Code and IDEs
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
+# Python dependency files
+Pipfile.lock
+poetry.lock
+
+# Model weights / embeddings
+*.bin
+*.ckpt
+*.pt
+*.h5
+*.pkl
+
+# CrewAI agent memory or vectorstore (if local)
+vectorstore/
+memory/
+
+# Others
+*.sqlite3
+db.sqlite3
+*.db
